@@ -1,0 +1,138 @@
+body{
+    background-color: #6096B4; overflow-x: hidden; 
+}
+
+h1{
+    font-family:'Dancing Script', sans-serif;
+    font-size: 6rem;
+    line-height: 1.5;
+    font-weight: 600;
+    }
+p{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem;
+      line-height: 3;
+      font-weight: 700;
+    }
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 5;
+}
+nav{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem;
+    }
+
+.nav-link{
+    color: antiquewhite;
+}
+
+
+.intro-p{
+    text-align: center;
+}
+
+.intro-h{
+    text-align: center;
+}
+
+
+ /* If the screen size is 1200px wide or more, set the font-size to 96px */
+    @media (min-width: 1200px) {
+    .responsive-font {
+      font-size: 100px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 70px */
+  @media (max-width: 1199.98px) {
+    .responsive-font {
+      font-size: 70px;
+    }
+  }
+
+.stroke{
+position: relative;
+width: 100%;
+
+}
+
+.stroke > img{
+    width:100%;
+    max-width:600px; /* real image width */
+    position:absolute;
+    top:0; left:0; right:0; bottom:0;
+    margin:auto;
+}
+
+.about_logo{
+    text-align: center;
+}
+
+.about_logo{
+    margin-top: 30px;
+}
+
+.p-about{
+    color: #BDCDD6;
+    /* border: 2px dotted; */
+}
+
+ /* If the screen size is 1200px wide or more, set the font-size to 96px */
+ @media (min-width: 1200px) {
+    .responsive-font-h3 {
+      font-size: 16px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 70px */
+  @media (max-width: 1199.98px) {
+    .responsive-font-h3 {
+      font-size: 12px;
+    }
+  }
+
+
+  .stroke2 > img{
+    width:100%;
+    max-width:200px; /* real image width */
+    top:0; left:0; right:0; bottom:0;
+    margin:auto;
+}
+
+.nazvaniye_skills{
+    font-weight: 700;
+    color: #BDCDD6;
+}
+
+.elage{
+    text-align: center;
+}
+
+.button{
+    font-family:'Montserrat', sans-serif ;
+    color: #BDCDD6;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btcolor{
+    background-color: #6096B4;
+}
+
+.btn:hover{
+    background-color: #93BFCF ;
+}
+
+
+#footer{
+    text-align: center;
+}
+
+.a-settings{
+    color: wheat;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px;
+}
